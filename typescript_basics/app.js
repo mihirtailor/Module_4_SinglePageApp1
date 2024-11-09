@@ -16,3 +16,12 @@ if (y == 10) {
 }
 console.log(y); // 10
 // "let" is preferred over var as best pracrice
+// Data types in Typescript
+// we can define a varialbe data types using colon
+// built in data types
+// number, string, boolean, void, null, undefined
+var customMessage = "hello world";
+// any data type
+// any
+// user defined data type
+// arrays, tuples, classes and interfaces
