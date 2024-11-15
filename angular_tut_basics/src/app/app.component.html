@@ -1,0 +1,20 @@
+<h1>This is the title of Page: {{ title }}</h1>
+<p>{{ paragraph }}</p>
+<h4>This is an object example</h4>
+{{
+  "ID: " +
+    person.id +
+    " Name: " +
+    person.firstName +
+    " Last Name: " +
+    person.lastName
+}}
+
+<h4>This is an array example</h4>
+<ul>
+  <li *ngFor="let person of persons">
+    {{ person.id + " " + person.firstName + " " + person.lastName }}
+  </li>
+</ul>
+
+<router-outlet />
